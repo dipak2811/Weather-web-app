@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  background-image: url("./assets/weather.jpg");
+  opacity: 1;
+  height: 100vh;
+}
+
+.app-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.title {
+  color: aliceblue;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
