@@ -1,0 +1,55 @@
+.HourlyForecast {
+    padding: 20px;
+  }
+  
+  .HourlyForecast h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .HourlyForecast p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .HourlyForecast {
+    text-align: center;
+    padding: 20px;
+    /* width: 100%; */
+    color: white;
+    background-color: #222831;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .HourlyForecast h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .HourlyForecast p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .HourlyForecastItem {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .dataSection{
+    height: 14rem;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
